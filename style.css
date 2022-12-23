@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'iranyekan';
+    src: url(./fonts/iranyekan-cufonfonts/Qs_Iranyekan\ light.ttf);
+}
+*{
+    background-color: rgb(161, 221, 202);
+    font-family: 'iranyekan';
+
+}
+form{
+    text-align: center;
+    margin-top: 18%;
+    
+}
+input[type=text],[type=password],[type=email]{
+    background-color: rgb(189, 219, 220);
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    
+}
+input[type=submit]{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    height: 40px;
+    width: 210px;
+    border-radius: 6px;
+}
+#done{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color:rgb(60, 60, 60) ;
+    color: white;
+    border-radius: 6px;
+    height: 50px;
+    font-size: large;
+    margin-top: 15%;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#new{
+    color: blue;
+}
+label{
+    color: rgb(60, 60, 60);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.input-center{
+    display: block;
+    margin: 0 auto;
+}
